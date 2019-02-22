@@ -1,0 +1,29 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "Andela note taking application api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Andela",
+    "note",
+    "app"
+  ],
+  "author": "chrisso",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
